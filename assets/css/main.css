@@ -133,6 +133,11 @@ input, select, textarea {
 
 	body {
 		-ms-overflow-style: scrollbar;
+		
+	}
+
+	#wrapper{
+		background-color: #101315;
 	}
 
 	@media screen and (max-width: 480px) {

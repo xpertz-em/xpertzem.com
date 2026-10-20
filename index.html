@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html>
+
+<html lang="en">
 <head>
     <!-- Primary metadata -->
     <title>Xpertz Electromechanical L.L.C | Dubai, UAE</title>
@@ -188,8 +189,8 @@ s0.parentNode.insertBefore(s1,s0);
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Core Services</h2>
+							<p>Our capabilities include equipment installation, preventive maintenance, troubleshooting, repairs, and system upgrades for commercial, residential, and industrial facilities. We deliver integrated electromechanical contracting solutions tailored to our clients’ requirements.</p>
 
 							
 <ul class="actions">
@@ -230,39 +231,283 @@ s0.parentNode.insertBefore(s1,s0);
 							
 							<div class="features">
 								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-building"></span>
+									<h3>Electromechanical Works Contracting</h3>
+									
 								</section>
 								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-faucet"></span>
+									<h3>Plumbing and Sanitary Installation</h3>
 								</section>
 								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-wrench"></span>
+									<h3>Electromechanical Equipment Installation and Maintenance</h3>
+									
 								</section>
 								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-bolt"></span>
+									<h3>Electrical Fittings & Fixtures Repairing and Maintenance</h3>
+									
 								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							
+																	
+							</div>							
 						</div>
 					</section>
+
+
+<!-- XPERTZ: OUR CLIENTS INFINITE MARQUEE -->
+<style>
+  .xpertz-marquee {
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    box-sizing: border-box;
+    background: #171717;
+   
+	margin-bottom: 3rem;
+  }
+
+  .xpertz-marquee *,
+  .xpertz-marquee *::before,
+  .xpertz-marquee *::after {
+    box-sizing: border-box;
+  }
+
+  /* FIXED LEFT PANEL */
+  .xpertz-marquee__label {
+    position: relative;
+    z-index: 2;
+    flex: 0 0 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 18px;
+    background: #101315;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  /* Accent divider */
+  .xpertz-marquee__label::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: #c51f2b;
+    box-shadow: 0 0 12px rgba(197, 31, 43, 0.4);
+  }
+
+  /* RIGHT SCROLLING AREA */
+  .xpertz-marquee__window {
+    flex: 1 1 66.667%;
+    min-width: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .xpertz-marquee__track {
+    display: flex;
+    flex-shrink: 0;
+    width: max-content;
+    animation: xpertz-clients-scroll 85s linear infinite;
+    will-change: transform;
+  }
+
+  .xpertz-marquee__group {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .xpertz-marquee__item {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    padding: 24px 24px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    transition: color 0.25s ease;
+  }
+
+  /* Red separators between client names */
+  .xpertz-marquee__item::after {
+    content: "";
+    display: inline-block;
+    flex-shrink: 0;
+    width: 6px;
+    height: 6px;
+    margin-left: 42px;
+    border-radius: 50%;
+    background: #c51f2b;
+    box-shadow: 0 0 8px rgba(197, 31, 43, 0.3);
+  }
+
+  .xpertz-marquee__item:hover {
+    color: #ff5963;
+  }
+
+  /* Pause when hovering over the moving names */
+  .xpertz-marquee__window:hover .xpertz-marquee__track {
+    animation-play-state: paused;
+  }
+
+  /* Seamless infinite loop */
+  @keyframes xpertz-clients-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* TABLETS AND MOBILE */
+  @media (max-width: 768px) {
+    .xpertz-marquee__label {
+      flex-basis: 30%;
+      padding: 18px 12px;
+      font-size: 15px;
+      letter-spacing: 0.8px;
+    }
+
+    .xpertz-marquee__item {
+      padding: 20px 16px;
+      font-size: 13px;
+    }
+
+    .xpertz-marquee__item::after {
+      margin-left: 28px;
+      width: 5px;
+      height: 5px;
+    }
+
+    .xpertz-marquee__track {
+      animation-duration: 75s;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .xpertz-marquee__label {
+      flex-basis: 29%;
+      padding: 14px 8px;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+      overflow-wrap: anywhere;
+    }
+
+    .xpertz-marquee__item {
+      padding: 18px 12px;
+      font-size: 12px;
+    }
+
+    .xpertz-marquee__item::after {
+      margin-left: 22px;
+    }
+
+    .xpertz-marquee__track {
+      animation-duration: 65s;
+    }
+  }
+
+  /* Respect reduced-motion accessibility preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .xpertz-marquee__track {
+      animation: none;
+    }
+
+    .xpertz-marquee__window {
+      overflow-x: auto;
+    }
+  }
+</style>
+
+<div class="xpertz-marquee"
+     role="region"
+     aria-label="Our clients and business partners">
+
+  <!-- FIXED ONE-THIRD PANEL -->
+  <div class="xpertz-marquee__label">
+    Our Clients
+  </div>
+
+  <!-- MOVING TWO-THIRDS PANEL -->
+  <div class="xpertz-marquee__window">
+
+    <div class="xpertz-marquee__track">
+
+      <!-- ORIGINAL CLIENT LIST -->
+      <div class="xpertz-marquee__group">
+
+        <span class="xpertz-marquee__item">The International School of Choueifat – Ajman</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – DIP</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Aljada</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – UAQ</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Sharjah</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – RAK</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Al Ain</span>
+        <span class="xpertz-marquee__item">Dubai Choueifat School</span>
+        <span class="xpertz-marquee__item">DOW UCAR Emulsion System FZE</span>
+        <span class="xpertz-marquee__item">MELUBCO</span>
+        <span class="xpertz-marquee__item">Al Khabeer Water Treatment LLC</span>
+        <span class="xpertz-marquee__item">Dutco Tennant L.L.C. – Dubai</span>
+        <span class="xpertz-marquee__item">General International Technical LLC</span>
+        <span class="xpertz-marquee__item">Auxilium Technical Services Co. LLC</span>
+        <span class="xpertz-marquee__item">Al Amiri Building Contracting LLC</span>
+        <span class="xpertz-marquee__item">BornFree Ceramics FZ LLC</span>
+        <span class="xpertz-marquee__item">Arjaan by Rotana</span>
+        <span class="xpertz-marquee__item">Barakat Quality Plus L.L.C.</span>
+        <span class="xpertz-marquee__item">Malaysia Tech Cont. LLC</span>
+        <span class="xpertz-marquee__item">Galore Stream LLC</span>
+        <span class="xpertz-marquee__item">Sapients</span>
+
+      </div>
+
+      <!-- IDENTICAL DUPLICATE FOR CONTINUOUS LOOP -->
+      <div class="xpertz-marquee__group" aria-hidden="true">
+
+        <span class="xpertz-marquee__item">The International School of Choueifat – Ajman</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – DIP</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Aljada</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – UAQ</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Sharjah</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – RAK</span>
+        <span class="xpertz-marquee__item">The International School of Choueifat – Al Ain</span>
+        <span class="xpertz-marquee__item">Dubai Choueifat School</span>
+        <span class="xpertz-marquee__item">DOW / DOW UCAR Emulsion System FZE</span>
+        <span class="xpertz-marquee__item">MELUBCO</span>
+        <span class="xpertz-marquee__item">Al Khabeer Water Treatment LLC</span>
+        <span class="xpertz-marquee__item">Dutco Tennant L.L.C. – Dubai</span>
+        <span class="xpertz-marquee__item">General International Technical LLC</span>
+        <span class="xpertz-marquee__item">Auxilium Technical Services Co. LLC</span>
+        <span class="xpertz-marquee__item">Al Amiri Building Contracting LLC</span>
+        <span class="xpertz-marquee__item">BornFree Ceramics FZ LLC</span>
+        <span class="xpertz-marquee__item">Arjaan by Rotana</span>
+        <span class="xpertz-marquee__item">Barakat Quality Plus L.L.C.</span>
+        <span class="xpertz-marquee__item">Malaysia Tech Cont. LLC</span>
+        <span class="xpertz-marquee__item">Galore Stream LLC</span>
+        <span class="xpertz-marquee__item">Sapients</span>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
